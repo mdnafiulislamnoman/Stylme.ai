@@ -7,8 +7,8 @@ body{
 
 header{
     background-color: #1F2937;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .logo{
@@ -40,8 +40,8 @@ a{
 .Hero-Section{
     display: flex;
     align-items: center;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-top: 100px;
     padding-bottom: 100px;
     gap: 50px;
@@ -53,11 +53,13 @@ a{
     font-size: 48px;
     font-weight: 900;
     margin: 0;
+    padding-right: 100px;
 }
 
 .Hero-Section p{
     font-size: 18px;
     color: #E5E7EB;
+    padding-right: 200px;
 }
 
 .Hero-Section button{
@@ -76,3 +78,44 @@ a{
     gap: 10px;
     
 }
+
+/*Info header section*/
+
+.Info-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 150px;
+}
+
+.Info-header h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.place-holder{
+    display: flex;
+    gap: 20px;
+}
+
+.img1 img{
+    border-radius: 10px;
+}
+
+.img1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img1 p{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:gray;
+    font-size: 18px;
+}
+
