@@ -186,3 +186,12 @@ a{
     font-size: 18px;
 }
 
+.footer{
+    height: 100px;
+    background-color: #1F2937;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
